@@ -1,0 +1,42 @@
+{
+    "title": "hippo文档",
+    "description": "hippo接口模拟器使用说明",
+    "author": "hippo",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.2",
+    "root": ".",
+    "links" : {
+    "sidebar" : {
+        "hippo" : "http://baibu.com"
+        }
+    },
+    "plugins": [
+        "splitter",
+        "-sharing",
+        "tbfed-pagefooter",
+        "anchors",
+        "-lunr", "-search", "search-plus",
+        "-fontsettings",
+        "-highlight",
+        "-livereload",
+        "prism",
+        "prism-themes",
+        "anchor-navigation-ex"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy hippo CMB 2018",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        }
+    }
+}
